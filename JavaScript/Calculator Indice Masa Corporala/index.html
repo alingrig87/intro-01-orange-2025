@@ -7,7 +7,20 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<button onclick="alert('S-a apasat butonul!')">Click me</button>
+		<div class="container">
+			<div class="inputs">
+				<label for="inaltime">Inaltime(m)</label>
+				<input type="text" placeholder="Exemplu: 1.82" id="inaltime" />
+			</div>
+			<div class="inputs">
+				<label for="greutate">Greutate(kg)</label>
+				<input type="text" placeholder="Exemplu: 82.5" id="greutate" />
+			</div>
+			<div>
+				<button onclick="calculeazaIMC()">Calculeaza IMC</button>
+			</div>
+			<p id="output">Rezultatul va fi aici...</p>
+		</div>
 		<script src="app.js"></script>
 	</body>
 </html>
