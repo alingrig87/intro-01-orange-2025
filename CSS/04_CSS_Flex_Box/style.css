@@ -1,0 +1,6 @@
+.form-element {
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	margin: 10px;
+}

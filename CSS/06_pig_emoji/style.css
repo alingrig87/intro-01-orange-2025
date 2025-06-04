@@ -1,0 +1,86 @@
+.head {
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	border: 5px solid black;
+	border-radius: 50%;
+	position: relative;
+}
+
+.ear {
+	width: 40px;
+	height: 40px;
+	background-color: pink;
+	border: 5px solid black;
+	border-radius: 50%;
+	position: absolute;
+	z-index: -1;
+}
+
+.ear:first-child {
+	left: 15px;
+	top: -5px;
+}
+
+.ear:last-child {
+	right: 15px;
+	top: -5px;
+}
+
+.eye {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.eye:first-child {
+	top: 40px;
+	left: 30px;
+}
+
+.eye:last-child {
+	top: 40px;
+	right: 30px;
+}
+
+.pupil {
+	width: 25px;
+	height: 25px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 12.5px;
+	top: 12.5px;
+}
+
+.nose {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background-color: #e57988;
+	border: 2px solid black;
+	bottom: 30px;
+	left: 50px;
+	border-radius: 35%;
+}
+
+.nostril {
+	position: absolute;
+	width: 25px;
+	height: 30px;
+	background-color: black;
+	border-radius: 50px;
+}
+
+.nostril:first-child {
+	left: 10px;
+	top: 10px;
+}
+
+.nostril:last-child {
+	right: 10px;
+	top: 10px;
+}
